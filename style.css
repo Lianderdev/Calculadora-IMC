@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #797979;
+}
+
+:root{
+    --azul: blue;
+    --verde: green;
+    --amarelo: yellow;
+    --laranja-claro: rgb(230, 164, 41);
+    --laranja-escuro: rgb(255, 106, 0);
+    --vermelho: red;
+
+}
+
+section{
+    width: 400px;
+    height: 700px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+
+}
+
+#calculator {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    color: #f8fafc;
+    background-color: #282828;
+    border-radius: 8px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#title {
+    font-size: 2.0rem;
+    position: relative;
+}
+
+.inputs{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+
+.input-box label {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #cbd5e1;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3f3f46;
+    border-radius: 3px;
+}
+
+.input-field span,  
+.input-field i  {
+    color: #cbd5e1;
+    font-size: 1.3rem;
+    padding: 0.2rem 1rem;
+}
+
+.input-field input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #f8fafc;
+    height: 40px;
+}
+
+.input-field input::-webkit-outer-spin-button,
+.input-field input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+#calculate {
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #f8fafc;
+    background-color: #e44747;
+    padding: 0.5rem 0;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+#result {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ffffff34;
+    padding: 1rem;
+}
+
+#value{
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#bmi {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.25rem;
+    text-align: center;
+}
+
+#bmi span:last-child {
+    font-size: 1.5rem;
+    color:#cbd5e1;
+}
+
+.normal {
+    color: #16a34a;
+}
+
+.attention {
+    color: #dc2626;
+}
+
+#description{
+   width: 15.5rem;
+   font-size: 1rem;
+}
+
+
+#more_info {
+    text-align: center;
+    border-top: 1px solid #ffffff34;
+    padding-top: 1.5rem;
+}
+
+#more_info a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    color: #16a34a;
+    font-size: 0.875rem;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+#more_info a:hover {
+    color: #cbd5e1;
+}
+
+.info-imc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.imc,.resultado{
+    color: #f8fafc;
+    font-weight: 500;
+    font-size: 1.2rem;
+    gap: 5px;
+}
+
+.pesos{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.circulo{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.azul{
+    background-color: var(--azul);
+}
+
+.amarelo{
+    background-color: var(--amarelo);
+}
+
+.vermelho{
+    background-color: var(--vermelho);
+}
+
+.verde{
+    background-color: var(--verde);
+}
+
+.laranja-claro{
+    background-color: var(--laranja-claro);
+}
+
+.laranja-escuro{
+    background-color: var(--laranja-escuro);
+}
