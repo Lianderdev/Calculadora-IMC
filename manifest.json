@@ -5,5 +5,12 @@
     "display": "standalone",
     "scope": "/",
     "theme_color": "#e44747",
-    "background_color": "#282828"
+    "background_color": "#282828",
+    "icons": [
+      {
+        "src": "img/balanca.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
   }
